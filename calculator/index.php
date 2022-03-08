@@ -31,7 +31,7 @@ $inputOne = $_POST['inputOne'];
 $inputTwo = $_POST['inputTwo'];
 
 if (is_numeric($inputOne) == false || is_numeric($inputTwo) == false) {
-    exit("geen correcte input");
+    exit("No vallid input");
 }
 
 switch(isset($_POST)) {
@@ -60,6 +60,8 @@ switch(isset($_POST)) {
         echo "$inputOne % $inputTwo = $moduloAnswer";
         break; 
 }
+
+//developed by quaatos with <3
 ?>
     </div>  
 </body>

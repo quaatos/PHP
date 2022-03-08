@@ -1,0 +1,17 @@
+form {
+	display: flex;
+	justify-content: center;
+}
+
+form > button {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.layout {
+	border: 5px solid black;
+	box-shadow: 10px 10px gray;
+	height: 250px;
+	width: 30%;
+}
